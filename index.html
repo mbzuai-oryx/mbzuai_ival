@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IVAL — Intelligent Visual Analytics Lab | MBZUAI</title>
+  <meta name="description" content="The Intelligent Visual Analytics Lab (IVAL) at MBZUAI builds multimodal foundation models, video understanding, earth observation and medical AI systems.">
+  <meta property="og:title" content="IVAL — Intelligent Visual Analytics Lab @ MBZUAI">
+  <meta property="og:description" content="Computer vision and multimodal AI research at Mohamed bin Zayed University of Artificial Intelligence.">
+  <meta property="og:image" content="assets/img/hero.jpg">
+  <link rel="icon" type="image/png" href="assets/img/logo-mark.png">
+  <link rel="preload" href="fonts/optimistic-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css?v=202610232306">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a class="brand" href="index.html" aria-label="IVAL home">
+        <img class="mbzuai" src="assets/img/mbzuai-logo-white.png" alt="Mohamed bin Zayed University of Artificial Intelligence">
+        <span class="divider" aria-hidden="true"></span>
+        <img class="ival" src="assets/img/ival-logo-white.png" alt="IVAL — Intelligent Visual Analytics Lab">
+      </a>
+      <div style="display:flex;align-items:center;gap:8px">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#research">Research</a></li>
+          <li><a href="#work">Featured</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="publications.html">Publications</a></li>
+        </ul>
+        <button class="theme-toggle" type="button" aria-label="Toggle color theme"></button>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="nav-links" aria-expanded="false"></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <canvas aria-hidden="true"></canvas>
+      <div class="container">
+        <div class="hero-inner">
+          <span class="eyebrow">Computer Vision Lab @ MBZUAI</span>
+          <h1>Intelligent Visual<br><span class="grad">Analytics Lab</span></h1>
+          <p class="lead">We build open multimodal foundation models that see, read, reason and converse, with applications in video, earth observation and healthcare.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#work">Explore our work</a>
+            <a class="btn btn-ghost" href="publications.html">All publications</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="research">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">Research themes</span>
+            <h2>What we work on</h2>
+            <p>Six connected directions, from general-purpose vision–language models to the specialist domains where they matter most.</p>
+          </div>
+        </div>
+        <div class="themes viz-root" id="themes-grid"></div>
+      </div>
+    </section>
+
+    <section class="block alt" id="work">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">Featured work</span>
+            <h2>Recent highlights</h2>
+            <p>Open models, benchmarks and datasets from the lab, most released under the <a href="https://github.com/mbzuai-oryx" target="_blank" rel="noopener">MBZUAI Oryx</a> GitHub organisation.</p>
+          </div>
+          <a class="btn btn-outline" href="publications.html">See all publications</a>
+        </div>
+        <div class="featured viz-root" id="featured-grid"></div>
+      </div>
+    </section>
+
+    <section class="block" id="team">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">People</span>
+            <h2>Faculty</h2>
+            <p>IVAL is led by four faculty members in the Department of Computer Vision at MBZUAI, working with PhD and MSc students, postdocs and research engineers.</p>
+          </div>
+        </div>
+        <div class="team" id="team-grid"></div>
+
+        <div class="subhead reveal">
+          <h3>Research Team</h3>
+          <p>Postdoctoral researchers and research scientists working with IVAL faculty.</p>
+        </div>
+        <div class="members" id="members-grid"></div>
+      </div>
+    </section>
+
+    <section class="block alt" id="news">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">Latest</span>
+            <h2>News</h2>
+          </div>
+        </div>
+        <ul class="news" id="news-list"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="foot-grid">
+        <div>
+          <div class="foot-logos"><img src="assets/img/mbzuai-logo-white.png" alt="MBZUAI"><span class="divider" aria-hidden="true"></span><img src="assets/img/ival-logo-white.png" alt="IVAL"></div>
+          <p><strong style="color:#fff">Intelligent Visual Analytics Lab (IVAL)</strong></p>
+          <p>Department of Computer Vision, Mohamed bin Zayed University of Artificial Intelligence</p>
+        </div>
+        <div>
+          <h4>Visit</h4>
+          <p>Computer Vision Lab, Building 1B, 2nd Floor<br>Masdar City, Abu Dhabi, UAE</p>
+          <p style="color:rgba(255,255,255,.55)">Enter Building 1B near the Multipurpose Hall, take the stairs or elevator to Floor 2. Mon–Fri, 9:00–17:00.</p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p><a href="mailto:fahad.khan@mbzuai.ac.ae">fahad.khan@mbzuai.ac.ae</a></p>
+          <p>+971 2 811 3256</p>
+          <p><a href="https://github.com/mbzuai-oryx" target="_blank" rel="noopener">GitHub · mbzuai-oryx</a></p>
+          <p><a href="https://mbzuai.ac.ae/research/department/computer-vision-department/" target="_blank" rel="noopener">MBZUAI Computer Vision</a></p>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© <span id="year"></span> IVAL · MBZUAI</span>
+        <span>Masdar City, Abu Dhabi</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/icons.js?v=202610232306"></script>
+  <script src="assets/data/site-data.js?v=202610232306"></script>
+  <script src="assets/js/main.js?v=202610232306"></script>
+</body>
+</html>

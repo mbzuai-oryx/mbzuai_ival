@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications — IVAL | MBZUAI</title>
+  <meta name="description" content="Publications from the Intelligent Visual Analytics Lab (IVAL) at MBZUAI.">
+  <link rel="icon" type="image/png" href="assets/img/logo-mark.png">
+  <link rel="preload" href="fonts/optimistic-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css?v=202610232306">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a class="brand" href="index.html" aria-label="IVAL home">
+        <img class="mbzuai" src="assets/img/mbzuai-logo-white.png" alt="Mohamed bin Zayed University of Artificial Intelligence">
+        <span class="divider" aria-hidden="true"></span>
+        <img class="ival" src="assets/img/ival-logo-white.png" alt="IVAL — Intelligent Visual Analytics Lab">
+      </a>
+      <div style="display:flex;align-items:center;gap:8px">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html#research">Research</a></li>
+          <li><a href="index.html#work">Featured</a></li>
+          <li><a href="index.html#team">Team</a></li>
+          <li><a href="index.html#news">News</a></li>
+          <li><a href="publications.html" aria-current="page">Publications</a></li>
+        </ul>
+        <button class="theme-toggle" type="button" aria-label="Toggle color theme"></button>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="nav-links" aria-expanded="false"></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Research output</span>
+        <h1>Publications</h1>
+        <p id="pub-intro">Peer-reviewed papers and preprints co-authored by IVAL faculty. Filter by year, theme or faculty member.</p>
+      </div>
+    </section>
+
+    <div class="container viz-root">
+      <div class="filters" role="search">
+        <label class="sr-only" for="q">Search publications</label>
+        <input type="search" id="q" placeholder="Search title, author or venue…">
+        <label class="sr-only" for="f-year">Year</label>
+        <select id="f-year"><option value="">All years</option></select>
+        <label class="sr-only" for="f-theme">Theme</label>
+        <select id="f-theme"><option value="">All themes</option></select>
+        <label class="sr-only" for="f-prof">Faculty</label>
+        <select id="f-prof"><option value="">All faculty</option></select>
+        <label class="sr-only" for="f-venue">Venue type</label>
+        <select id="f-venue">
+          <option value="">All venues</option>
+          <option value="top">Top venues only</option>
+        </select>
+        <span class="count" id="count" aria-live="polite"></span>
+      </div>
+      <div id="pubs"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="foot-grid">
+        <div>
+          <div class="foot-logos"><img src="assets/img/mbzuai-logo-white.png" alt="MBZUAI"><span class="divider" aria-hidden="true"></span><img src="assets/img/ival-logo-white.png" alt="IVAL"></div>
+          <p><strong style="color:#fff">Intelligent Visual Analytics Lab (IVAL)</strong></p>
+          <p>Department of Computer Vision, Mohamed bin Zayed University of Artificial Intelligence</p>
+        </div>
+        <div>
+          <h4>Visit</h4>
+          <p>Computer Vision Lab, Building 1B, 2nd Floor<br>Masdar City, Abu Dhabi, UAE</p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p><a href="mailto:fahad.khan@mbzuai.ac.ae">fahad.khan@mbzuai.ac.ae</a></p>
+          <p>+971 2 811 3256</p>
+          <p><a href="https://github.com/mbzuai-oryx" target="_blank" rel="noopener">GitHub · mbzuai-oryx</a></p>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© <span id="year"></span> IVAL · MBZUAI</span>
+        <span>Masdar City, Abu Dhabi</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/icons.js?v=202610232306"></script>
+  <script src="assets/data/site-data.js?v=202610232306"></script>
+  <script src="assets/data/publications.js?v=202610232306"></script>
+  <script src="assets/js/main.js?v=202610232306"></script>
+  <script src="assets/js/publications.js?v=202610232306"></script>
+</body>
+</html>
