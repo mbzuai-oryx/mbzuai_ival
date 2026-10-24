@@ -97,8 +97,8 @@ window.IVAL_DATA = {
     {
       "key": "salman",
       "name": "Salman Khan",
-      "title": "Professor, MBZUAI · Adjunct, Australian National University",
-      "bio": "Salman leads work on large multimodal models for images, video and Earth observation, including pixel-grounded vision–language models and geospatial and climate foundation models. He is a founding faculty member of MBZUAI and previously worked at the Inception Institute of AI and CSIRO Data61.",
+      "title": "Professor, MBZUAI\nAdjunct, Australian National University",
+      "bio": "Salman's research covers model generalization, multimodal learning, learning from limited data (zero- and few-shot) and continual lifelong learning for computer vision. He is a founding faculty member of MBZUAI, co-founder of Apertix and a Fellow at ADIA Lab.",
       "interests": [
         "Multimodal LLMs",
         "Earth observation",
@@ -128,7 +128,7 @@ window.IVAL_DATA = {
       "key": "fahad",
       "name": "Fahad Shahbaz Khan",
       "title": "Professor & Deputy Chair of Computer Vision, MBZUAI · Linköping University",
-      "bio": "Fahad works across computer vision and machine learning, from object recognition and visual tracking to large multimodal models, 3D understanding and remote sensing. He also holds a faculty post at Linköping University's Computer Vision Laboratory in Sweden.",
+      "bio": "Fahad's research spans computer vision and machine learning, including object recognition, visual tracking, large multimodal models, 3D understanding and remote sensing. He also holds a faculty post at Linköping University's Computer Vision Laboratory in Sweden.",
       "interests": [
         "Detection & segmentation",
         "Visual tracking",
@@ -159,7 +159,7 @@ window.IVAL_DATA = {
       "key": "hisham",
       "name": "Hisham Cholakkal",
       "title": "Assistant Professor of Computer Vision, MBZUAI",
-      "bio": "Hisham builds multimodal large language models and AI assistants that combine vision, audio, speech and text across languages, with a focus on healthcare and smart wearables. He is a founding faculty member of MBZUAI.",
+      "bio": "Hisham's research focuses on multimodal large language models across vision, audio, speech and text, with applications in healthcare and smart wearables. He is a founding faculty member of MBZUAI.",
       "interests": [
         "Multimodal LLMs",
         "Healthcare AI",
@@ -167,7 +167,7 @@ window.IVAL_DATA = {
         "Arabic–English AI"
       ],
       "honours": [
-        "Meta Llama Impact Innovation Award 2024 (BiMediX2)",
+        "Meta Llama Impact Innovation Award 2024",
         "MBZUAI Teaching Excellence Award 2025",
         "General Chair, ACM Multimedia Asia 2026"
       ],
@@ -187,7 +187,7 @@ window.IVAL_DATA = {
       "key": "rao",
       "name": "Rao Muhammad Anwer",
       "title": "Assistant Professor of Computer Vision, MBZUAI",
-      "bio": "Rao's research spans visual recognition, multimodal learning and visual reasoning, open-world perception, and efficient, robust deep learning for detailed scene understanding. He joined MBZUAI in 2020 after research roles at the Inception Institute of AI and Aalto University.",
+      "bio": "Rao's research spans visual recognition, multimodal learning and visual reasoning, open-world perception, and efficient and robust deep learning. He joined MBZUAI in 2020 after research roles at the Inception Institute of AI and Aalto University.",
       "interests": [
         "Visual recognition",
         "Visual reasoning",
@@ -1564,20 +1564,20 @@ window.IVAL_DATA = {
       }
     },
     {
-      "name": "Chao Qin",
-      "role": "PD",
-      "photo": null,
-      "links": {
-        "scholar": null,
-        "homepage": null
-      }
-    },
-    {
       "name": "Jean Lahoud",
       "role": "RS",
       "photo": "assets/img/team/jean-lahoud.jpg",
       "links": {
         "scholar": "https://scholar.google.com/citations?user=LsivLPoAAAAJ",
+        "homepage": null
+      }
+    },
+    {
+      "name": "Chao Qin",
+      "role": "PD",
+      "photo": null,
+      "links": {
+        "scholar": null,
         "homepage": null
       }
     },
@@ -1597,15 +1597,6 @@ window.IVAL_DATA = {
       "links": {
         "scholar": "https://scholar.google.com/citations?user=BJUlpoMAAAAJ",
         "homepage": "https://leonmakise.github.io/"
-      }
-    },
-    {
-      "name": "Jinxing Zhou",
-      "role": "PD",
-      "photo": null,
-      "links": {
-        "scholar": null,
-        "homepage": null
       }
     },
     {

@@ -264,7 +264,7 @@ a.chip:hover { outline: 1px solid var(--brand-blue); }
 .person .head { display: flex; gap: 18px; align-items: center; }
 .person .photo { width: 112px; height: 112px; flex: none; border-radius: 18px; object-fit: cover; object-position: center 20%; background: var(--surface-2); }
 .person h3 { font-size: 20px; }
-.person .role { color: var(--text-2); font-size: 14px; font-weight: 500; line-height: 1.45; margin-top: 2px; }
+.person .role { color: var(--text-2); font-size: 14px; font-weight: 500; line-height: 1.45; margin-top: 2px; white-space: pre-line; }
 .person .bio { color: var(--text-2); font-size: 14.5px; margin: 0; }
 .person .tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .person .honours { font-size: 13px; color: var(--muted); margin: 0; padding-left: 16px; }
