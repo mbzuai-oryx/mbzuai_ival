@@ -1538,7 +1538,7 @@ window.IVAL_DATA = {
   "team": [
     {
       "name": "Abdelrahman Shaker",
-      "role": "PD",
+      "role": "RS",
       "photo": "assets/img/team/abdelrahman-shaker.jpg",
       "links": {
         "scholar": "https://scholar.google.com/citations?user=eEz4Wu4AAAAJ",
