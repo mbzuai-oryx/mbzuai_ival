@@ -95,36 +95,6 @@ window.IVAL_DATA = {
   ],
   "faculty": [
     {
-      "key": "salman",
-      "name": "Salman Khan",
-      "title": "Professor, MBZUAI\nAdjunct, Australian National University",
-      "bio": "Salman's research covers model generalization, multimodal learning, learning from limited data (zero- and few-shot) and continual lifelong learning for computer vision. He is a founding faculty member of MBZUAI, co-founder of Apertix and a Fellow at ADIA Lab.",
-      "interests": [
-        "Multimodal LLMs",
-        "Earth observation",
-        "Continual learning",
-        "Robust vision"
-      ],
-      "honours": [
-        "Clarivate Highly Cited Researcher 2025",
-        "MBZUAI Distinguished Research Award 2025",
-        "Program Chair, ACCV 2028"
-      ],
-      "aliases": [
-        "S Khan",
-        "SH Khan",
-        "Salman Khan",
-        "Salman H. Khan"
-      ],
-      "photo": "assets/img/team/salman.jpg",
-      "email": "salman.khan@mbzuai.ac.ae",
-      "links": {
-        "homepage": "https://salman-h-khan.github.io/",
-        "scholar": "https://scholar.google.com/citations?user=M59O9lkAAAAJ",
-        "mbzuai": "https://mbzuai.ac.ae/study/faculty/salman-khan/"
-      }
-    },
-    {
       "key": "fahad",
       "name": "Fahad Shahbaz Khan",
       "title": "Professor & Deputy Chair of Computer Vision, MBZUAI · Linköping University",
@@ -153,6 +123,36 @@ window.IVAL_DATA = {
         "homepage": "https://sites.google.com/view/fahadkhans/home",
         "scholar": "https://scholar.google.com/citations?user=zvaeYnUAAAAJ",
         "mbzuai": "https://mbzuai.ac.ae/study/faculty/fahad-khan/"
+      }
+    },
+   {
+      "key": "salman",
+      "name": "Salman Khan",
+      "title": "Professor, MBZUAI\nAdjunct, Australian National University",
+      "bio": "Salman's research covers model generalization, multimodal learning, learning from limited data (zero- and few-shot) and continual lifelong learning for computer vision. He is a founding faculty member of MBZUAI, co-founder of Apertix and a Fellow at ADIA Lab.",
+      "interests": [
+        "Multimodal LLMs",
+        "Earth observation",
+        "Continual learning",
+        "Robust vision"
+      ],
+      "honours": [
+        "Clarivate Highly Cited Researcher 2025",
+        "MBZUAI Distinguished Research Award 2025",
+        "Program Chair, ACCV 2028"
+      ],
+      "aliases": [
+        "S Khan",
+        "SH Khan",
+        "Salman Khan",
+        "Salman H. Khan"
+      ],
+      "photo": "assets/img/team/salman.jpg",
+      "email": "salman.khan@mbzuai.ac.ae",
+      "links": {
+        "homepage": "https://salman-h-khan.github.io/",
+        "scholar": "https://scholar.google.com/citations?user=M59O9lkAAAAJ",
+        "mbzuai": "https://mbzuai.ac.ae/study/faculty/salman-khan/"
       }
     },
     {
